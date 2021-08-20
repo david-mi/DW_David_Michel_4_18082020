@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +1038,34 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+/* CHANGEMENTS OPERES ////////////////////////////////////////*/
+
+/* IMAGES COL-SM-6 PLUS LEGERE EN DESKTOP */
+
+.img-responsive.img-small-version.portfolio-thumb{
+    width: 270px;
+    height: 270px;
+}
+
+.portfolio-row .img-full-version{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .portfolio-row .img-full-version {
+        display: block;
+        /* width: auto;
+        max-width: 100%;
+        height: auto; */
+        margin-inline: auto; 
+    }
+
+   
+
+    .portfolio-row .img-small-version{
+        display: none;
     }
 }
