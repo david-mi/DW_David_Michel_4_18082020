@@ -687,6 +687,7 @@ a {
 
 p {
     font-size: 16px;
+    font-weight: 500;
    
 }
 
@@ -1133,4 +1134,9 @@ h4 {
 #bloc-6 p {
     color: white!important;
 }
+
+#bloc-6 p {
+    font-size: 16px;
+}
+
 /* //////// */
