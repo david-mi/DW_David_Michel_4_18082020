@@ -525,7 +525,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -715,9 +715,13 @@ p {
     margin: auto auto auto auto;
 }
 
+.social .fa {
+    color: white!important;
+}
+
 h2 {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
@@ -796,12 +800,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #EA7243;
+    background: #ec6029;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #f0642c!important;
+    background: #f04b09!important;
     color: #FFFFFF!important;
 }
 
