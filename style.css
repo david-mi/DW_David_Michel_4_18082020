@@ -1051,6 +1051,13 @@ h4 {
     }
 }
 
+@media (max-width: 500px){
+    #bloc-3-what-i-do .black-background {
+        padding: 0px!important;
+
+    }
+}
+
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
@@ -1073,9 +1080,6 @@ h4 {
 @media (max-width: 767px){
     .portfolio-row .img-full-version {
         display: block;
-        /* width: auto;
-        max-width: 100%;
-        height: auto; */
         margin-inline: auto; 
     }
 
